@@ -1,0 +1,38 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    text-align:center;
+}
+
+#Paddle{
+    animation:Paddle 4s ease infinite;
+    transform-origin:center;
+    animation-direction: alternate;
+}
+
+@keyframes Paddle{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(50px);    }
+}
+
+#Thermometer{
+    animation:Thermometer 4s ease;
+    animation-fill-mode:forwards;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+@keyframes Thermometer{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(280deg)
+    }
+}
