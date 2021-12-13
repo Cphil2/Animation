@@ -1,14 +1,5 @@
-{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-body {
-    text-align:center;
-}
-
 #Paddle{
-    animation:Paddle 4s ease infinite;
+    animation:Paddle 2s infinite;
     transform-origin:center;
     animation-direction: alternate;
 }
@@ -22,7 +13,7 @@ body {
 }
 
 #Thermometer{
-    animation:Thermometer 4s ease;
+    animation:Thermometer 5s ease;
     animation-fill-mode:forwards;
     transform-origin:center;
     transform-box:fill-box;
